@@ -23,6 +23,7 @@ html {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 22px;
+  
 }
 
 /* HEADER */
@@ -50,6 +51,7 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 25px;
+ 
 }
 
 nav ul li a {
@@ -57,6 +59,7 @@ nav ul li a {
   color: #e5e7eb;
   font-weight: 500;
   transition: 0.3s;
+  
 }
 
 nav ul li a:hover {
@@ -289,4 +292,108 @@ section {
 
 .destination-card:hover::after {
   opacity: 1;
+}
+
+/* HAMBURGER MENU */  
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+ 
+}
+.menu-icon span{
+  height: 3px;
+  width: 25px;
+  background: #ef4444;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+#menu-toggle {
+  display: none;
+}
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+/* HAMBURGER MENU */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  height: 3px;
+  width: 25px;
+  background: #ef4444;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+/* IMPORTANT: use class */
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+/* 📱 MOBILE FIX */
+@media (max-width: 768px) {
+
+  /* SHOW HAMBURGER */
+  .menu-icon {
+    display: flex;
+  }
+
+  /* NAV MENU STYLE */
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background: #000;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 20px 0;
+    z-index: 999;
+  }
+
+  /* 🔥 THIS WAS MISSING (IMPORTANT) */
+  #menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  /* GRID FIX */
+  .destination-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* CARD */
+  .destination-card {
+    width: 90%;
+    margin: auto;
+  }
+
+  .destination-card img {
+    height: 200px;
+  }
+
+  /* HERO TEXT */
+  .homecontent h2 {
+    font-size: 1.8rem;
+  }
+
+  .homecontent p {
+    font-size: 1rem;
+  }
 }

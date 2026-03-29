@@ -397,3 +397,21 @@ section {
     font-size: 1rem;
   }
 }
+/* CONTACT ITEMS */
+.help-box {
+  background-color: #1a1a1a;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.3);
+}
+.contact-item {
+  margin: 10px 0;
+  font-size: 0.95rem;
+}
+  .help-box p {
+  margin-bottom: 20px;
+  color: #d1d5db;
+}
+

@@ -239,3 +239,54 @@ section {
   font-size: 0.9rem;
   color: #9ca3af;
 }
+/* CARD CONTENT */
+.card-content {
+  padding: 10px;
+}
+
+/* TAGLINE */
+.tagline {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+/* EXTRA INFO (HIDDEN BY DEFAULT) */
+.extra-info {
+  opacity: 0;
+  font-size: 0.8rem;
+  color: #9ca3af;
+  transition: 0.3s;
+}
+
+/* SHOW ON HOVER */
+.destination-card:hover .extra-info {
+  opacity: 1;
+}
+
+/* RATING BADGE */
+.destination-card {
+  position: relative;
+}
+
+.rating {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ef4444;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+/* IMAGE OVERLAY EFFECT */
+.destination-card::after {
+  content: "";
+  pointer-events: none;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.destination-card:hover::after {
+  opacity: 1;
+}

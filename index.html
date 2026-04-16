@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Anime Streaming</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -24,7 +24,7 @@
       <div class="container">
         <nav role="navigation" aria-label="main navigation">
        
-          <h1>World of Anime Adventures</h1>
+          <h1 data-key="title">World of Anime Adventures</h1>
      
           <!-- hamburgerstart -->
           <input type="checkbox" id="menu-toggle" />
@@ -33,13 +33,19 @@
             <span></span>
             <span></span>
           </label>
+    
           <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#destination">Popular Anime</a></li>
-            <li><a href="#action">Action Anime</a></li>
-            <li><a href="#sad">Sad Anime</a></li>
-            <li><a href="#help">Help</a></li>
+            <li><a href="#home"  data-key="home">Home</a></li>
+            <li><a href="#destination" data-key="popular">Popular Anime</a></li>
+            <li><a href="#action" data-key="action">Action Anime</a></li>
+            <li><a href="#sad" data-key="sad">Sad Anime</a></li>
+            <li><a href="#help" data-key="help">Help</a></li>
+      
           </ul>
+                <select id="lang-toggle">
+  <option value="en">English</option>
+  <option value="jp">日本語</option>
+</select>
         </nav>
       </div>
     </header>
@@ -58,12 +64,12 @@
       ></video>
       <div class="overlay"></div>
       <div class="homecontent container">
-        <h2>Discover Your Adventures</h2>
-        <p>
+        <h2 data-key="hero_title">Discover Your Adventures</h2>
+        <p data-key="hero_desc">
           Discover iconic anime worlds, powerful stories, and unforgettable
           characters.
         </p>
-        <a href="#packages" class="btn" aria-label="Packages">
+        <a href="#packages" class="btn" aria-label="Packages" data-key="start">
           start your journey
         </a>
       </div>
@@ -387,5 +393,7 @@
         
       </div>
     </section>
+
+    <script src="./luffy.js"></script>
   </body>
 </html>

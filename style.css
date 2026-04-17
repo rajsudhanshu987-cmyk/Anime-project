@@ -417,7 +417,12 @@ section {
 }
 
 .lang-button {
-  color: #dc2626;
+  color: #fff;
   background-color: #000;
-
+border-radius: 50px;
+border-spacing: 100px;
+}
+.class { 
+ box-sizing: content-box;
+ border-color: #dc2626;
 }

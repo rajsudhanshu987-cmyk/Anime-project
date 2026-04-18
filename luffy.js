@@ -63,15 +63,18 @@ const translations = {
     csm_title: "Chainsaw Man",
     csm_tag: "Devil Hunter Chaos",
     csm_info: "12 Episodes | Genre: Action",
+    csm_watch: "WATCH TRAILER",
 
     // Sad anime
     pancreas_title: "I Want to Eat Your Pancreas",
     pancreas_tag: "A Fragile Love Story",
     pancreas_info: "Movie | Genre: Drama",
+     pancreas_watch:  "WATCH TRAILER",
 
     silent_title: "A Silent Voice",
     silent_tag: "Redemption and Forgiveness",
     silent_info: "Movie | Genre: Drama",
+    silent_watch: "WATCH TRAILER",
 
     april_title: "Your Lie in April",
     april_tag: "Music and Heartbreak",
@@ -138,14 +141,17 @@ const translations = {
     csm_title: "チェンソーマン",
     csm_tag: "悪魔ハンターの混乱",
     csm_info: "12話 | ジャンル: アクション",
+     csm_watch:  "予告編を見る",
 
     pancreas_title: "君の膵臓をたべたい",
     pancreas_tag: "切ない恋の物語",
     pancreas_info: "映画 | ジャンル: ドラマ",
+    pancreas_watch: "予告編を見る",
 
     silent_title: "聲の形",
     silent_tag: "贖罪と許し",
     silent_info: "映画 | ジャンル: ドラマ",
+     silent_watch: "予告編を見る",
 
     april_title: "四月は君の嘘",
     april_tag: "音楽と悲しみ",

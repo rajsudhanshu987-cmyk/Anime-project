@@ -7,6 +7,7 @@ const translations = {
     action: "Action Anime",
     action_heading: "Action Anime",
     sad: "Sad Anime",
+    help: "HELP",
     help_section: "Help & Contact",
     contact: "Need help or suggestions? Contact me",
     email: "  Email: hayatosato64@gmail.com",
@@ -50,11 +51,13 @@ const translations = {
     ds_title: "Demon Slayer",
     ds_tag: "Demon Hunting Journey",
     ds_info: "55 Episodes | Genre: Action",
+    ds_watch: "WATCH TRAILER",
 
     // Tokyo Ghoul
     tg_title: "Tokyo Ghoul",
     tg_tag: "Human vs Monster Conflict",
     tg_info: "48 Episodes | Genre: Dark Fantasy",
+    tg_watch: "WATCH TRAILER",
 
     // Chainsaw
     csm_title: "Chainsaw Man",
@@ -87,6 +90,7 @@ const translations = {
     action: "アクションアニメ",
      action_heading: "アクションアニメ",
     sad: "感動アニメ",
+    help: "サポート",
     help_section: "サポート",
     contact: "サポートやご提案があれば、ご連絡ください。",
     email: "メール: hayatosato64@gmail.com",
@@ -124,10 +128,12 @@ const translations = {
     ds_title: "鬼滅の刃",
     ds_tag: "鬼狩りの旅",
     ds_info: "55話 | ジャンル: アクション",
+     ds_watch: "予告編を見る",
 
     tg_title: "東京喰種",
     tg_tag: "人間と怪物の戦い",
     tg_info: "48話 | ジャンル: ダークファンタジー",
+    tg_watch: "予告編を見る",
 
     csm_title: "チェンソーマン",
     csm_tag: "悪魔ハンターの混乱",

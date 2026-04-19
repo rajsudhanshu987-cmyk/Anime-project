@@ -1,3 +1,4 @@
+
 const translations = {
   en: {
     title: "World of Anime Adventures",
@@ -7,70 +8,61 @@ const translations = {
     action: "Action Anime",
     action_heading: "Action Anime",
     sad: "Sad Anime",
-     sad_heading: "Sad Anime",
+    sad_heading: "Sad Anime",
     help: "HELP",
     help_section: "Help & Contact",
     contact: "Need help or suggestions? Contact me",
-    email: "  Email: hayatosato64@gmail.com",
-    phone: " Phone: 987545110",
-    insta: " Instagram: suneo_64",
+    email: "Email: hayatosato64@gmail.com",
+    phone: "Phone: 987545110",
+    insta: "Instagram: suneo_64",
     hero_title: "Discover Your Adventures",
-    hero_desc: "Discover iconic anime worlds, powerful stories, and unforgettable characters.",
+    hero_desc:
+      "Discover iconic anime worlds, powerful stories, and unforgettable characters.",
     start: "Start your journey",
     watch: "WATCH TRAILER",
 
-    // One Piece
     onepiece_title: "One Piece",
     onepiece_tag: "Pirate Adventure",
     onepiece_info: "1000+ Episodes | Genre: Adventure",
-     watch: "WATCH TRAILER",
 
-    // AOT
     aot_title: "Attack on Titan",
     aot_tag: "War for Survival",
     aot_info: "87 Episodes | Genre: Action",
-     aot_watch: "WATCH TRAILER",
+    aot_watch: "WATCH TRAILER",
 
-    // Naruto
     naruto_title: "Naruto",
     naruto_tag: "Ninja Path to Greatness",
     naruto_info: "720 Episodes | Genre: Action",
 
-    // Death Note
     deathnote_title: "Death Note",
     deathnote_tag: "Battle of Minds",
     deathnote_info: "37 Episodes | Genre: Thriller",
     deathnote_watch: "WATCH TRAILER",
 
-    // Jujutsu
     jjk_title: "Jujutsu Kaisen",
     jjk_tag: "Curse vs Sorcerer Battle",
     jjk_info: "47 Episodes | Genre: Action",
     jjk_watch: "WATCH TRAILER",
 
-    // Demon Slayer
     ds_title: "Demon Slayer",
     ds_tag: "Demon Hunting Journey",
     ds_info: "55 Episodes | Genre: Action",
     ds_watch: "WATCH TRAILER",
 
-    // Tokyo Ghoul
     tg_title: "Tokyo Ghoul",
     tg_tag: "Human vs Monster Conflict",
     tg_info: "48 Episodes | Genre: Dark Fantasy",
     tg_watch: "WATCH TRAILER",
 
-    // Chainsaw
     csm_title: "Chainsaw Man",
     csm_tag: "Devil Hunter Chaos",
     csm_info: "12 Episodes | Genre: Action",
     csm_watch: "WATCH TRAILER",
 
-    // Sad anime
     pancreas_title: "I Want to Eat Your Pancreas",
     pancreas_tag: "A Fragile Love Story",
     pancreas_info: "Movie | Genre: Drama",
-     pancreas_watch:  "WATCH TRAILER",
+    pancreas_watch: "WATCH TRAILER",
 
     silent_title: "A Silent Voice",
     silent_tag: "Redemption and Forgiveness",
@@ -92,7 +84,7 @@ const translations = {
     popular: "人気アニメ",
     popular_heading: "人気アニメ",
     action: "アクションアニメ",
-     action_heading: "アクションアニメ",
+    action_heading: "アクションアニメ",
     sad: "感動アニメ",
     sad_heading: "感動アニメ",
     help: "サポート",
@@ -109,12 +101,11 @@ const translations = {
     onepiece_title: "ワンピース",
     onepiece_tag: "海賊の冒険",
     onepiece_info: "1000話以上 | ジャンル: 冒険",
-     watch: "予告編を見る",
 
     aot_title: "進撃の巨人",
     aot_tag: "生き残りの戦い",
     aot_info: "87話 | ジャンル: アクション",
-     aot_watch: "予告編を見る",
+    aot_watch: "予告編を見る",
 
     naruto_title: "ナルト",
     naruto_tag: "忍者の道",
@@ -133,7 +124,7 @@ const translations = {
     ds_title: "鬼滅の刃",
     ds_tag: "鬼狩りの旅",
     ds_info: "55話 | ジャンル: アクション",
-     ds_watch: "予告編を見る",
+    ds_watch: "予告編を見る",
 
     tg_title: "東京喰種",
     tg_tag: "人間と怪物の戦い",
@@ -143,7 +134,7 @@ const translations = {
     csm_title: "チェンソーマン",
     csm_tag: "悪魔ハンターの混乱",
     csm_info: "12話 | ジャンル: アクション",
-     csm_watch:  "予告編を見る",
+    csm_watch: "予告編を見る",
 
     pancreas_title: "君の膵臓をたべたい",
     pancreas_tag: "切ない恋の物語",
@@ -153,7 +144,7 @@ const translations = {
     silent_title: "聲の形",
     silent_tag: "贖罪と許し",
     silent_info: "映画 | ジャンル: ドラマ",
-     silent_watch: "予告編を見る",
+    silent_watch: "予告編を見る",
 
     april_title: "四月は君の嘘",
     april_tag: "音楽と悲しみ",
@@ -165,8 +156,6 @@ const translations = {
   }
 };
 
-const langToggle = document.getElementById("lang-toggle");
-
 function changeLanguage(lang) {
   document.querySelectorAll("[data-key]").forEach(el => {
     const key = el.getAttribute("data-key");
@@ -175,72 +164,62 @@ function changeLanguage(lang) {
     }
   });
 
-  // ===== SVG LANGUAGE SWITCHER =====
-// const langBtn = document.getElementById("langBtn");
-// const langMenu = document.getElementById("langMenu");
-// const langText = document.getElementById("langText");
-// const langIcon = document.getElementById("langIcon");
+  document.body.style.fontFamily =
+    lang === "jp" ? "'Noto Sans JP', sans-serif" : "'Poppins', sans-serif";
+}
 
-// langBtn.addEventListener("click", () => {
-//   langMenu.classList.toggle("hidden");
-// });
+// ================= SVG LANGUAGE SWITCHER =================
+const langBtn = document.getElementById("langBtn");
+const langMenu = document.getElementById("langMenu");
+const langText = document.getElementById("langText");
+const langIcon = document.getElementById("langIcon");
 
-// document.addEventListener("click", (e) => {
-//   if (!langBtn.contains(e.target) && !langMenu.contains(e.target)) {
-//     langMenu.classList.add("hidden");
-//   }
-// });
+if (langBtn && langMenu) {
+  langBtn.addEventListener("click", () => {
+    langMenu.classList.toggle("hidden");
+  });
 
-// document.querySelectorAll(".lang-item").forEach(item => {
-//   item.addEventListener("click", () => {
-//     const lang = item.dataset.lang;
+  document.addEventListener("click", (e) => {
+    if (!langBtn.contains(e.target) && !langMenu.contains(e.target)) {
+      langMenu.classList.add("hidden");
+    }
+  });
 
-//     if (lang === "en") {
-//       langText.innerText = "EN";
-//       langIcon.innerHTML = `<svg width="20" height="20" viewBox="0 0 60 30">
-//         <rect width="60" height="30" fill="#012169"/>
-//       </svg>`;
-//     } else {
-//       langText.innerText = "JP";
-//       langIcon.innerHTML = `<svg width="20" height="20" viewBox="0 0 60 30">
-//         <rect width="60" height="30" fill="white"/>
-//         <circle cx="30" cy="15" r="8" fill="red"/>
-//       </svg>`;
-//     }
+  document.querySelectorAll(".lang-item").forEach(item => {
+    item.addEventListener("click", () => {
+      const lang = item.dataset.lang;
 
-//     localStorage.setItem("lang", lang);
-//     changeLanguage(lang);
+      if (lang === "en") {
+        langText.innerText = "EN";
+        langIcon.innerHTML = `<svg width="20" height="20" viewBox="0 0 60 30">
+          <rect width="60" height="30" fill="#012169"/>
+        </svg>`;
+      } else {
+        langText.innerText = "JP";
+        langIcon.innerHTML = `<svg width="20" height="20" viewBox="0 0 60 30">
+          <rect width="60" height="30" fill="white"/>
+          <circle cx="30" cy="15" r="8" fill="red"/>
+        </svg>`;
+      }
 
-//     langMenu.classList.add("hidden");
-//   });
-// });
-// window.onload = () => {
-//   const savedLang = localStorage.getItem("lang") || "en";
+      localStorage.setItem("lang", lang);
+      changeLanguage(lang);
+      langMenu.classList.add("hidden");
+    });
+  });
+}
 
-//   changeLanguage(savedLang);
+// ================= PAGE LOAD =================
+window.onload = () => {
+  const savedLang = localStorage.getItem("lang") || "en";
 
-//   // Sync UI
-//   if (savedLang === "jp") {
-//     langText.innerText = "JP";
-//     langIcon.innerHTML = `<svg width="20" height="20" viewBox="0 0 60 30">
-//       <rect width="60" height="30" fill="white"/>
-//       <circle cx="30" cy="15" r="8" fill="red"/>
-//     </svg>`;
-//   }
-// };
-  // Optional: font switch
-//   document.body.style.fontFamily =
-//     lang === "jp" ? "'Noto Sans JP', sans-serif" : "'Poppins', sans-serif";
-// }
+  changeLanguage(savedLang);
 
-// langToggle.addEventListener("change", () => {
-//   const lang = langToggle.value;
-//   localStorage.setItem("lang", lang);
-//   changeLanguage(lang);
-// });
-
-// window.onload = () => {
-//   const savedLang = localStorage.getItem("lang") || "en";
-//   langToggle.value = savedLang;
-//   changeLanguage(savedLang);
-// };
+  if (savedLang === "jp") {
+    langText.innerText = "JP";
+    langIcon.innerHTML = `<svg width="20" height="20" viewBox="0 0 60 30">
+      <rect width="60" height="30" fill="white"/>
+      <circle cx="30" cy="15" r="8" fill="red"/>
+    </svg>`;
+  }
+};

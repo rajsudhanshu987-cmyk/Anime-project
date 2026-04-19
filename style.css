@@ -539,3 +539,8 @@ border-spacing: 100px;
 .hidden {
   display: none;
 }
+.lang-btn img {
+  border-radius: 3px;
+   border-radius: 3px;
+  vertical-align: middle;
+}

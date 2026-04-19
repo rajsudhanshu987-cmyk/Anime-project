@@ -42,10 +42,36 @@
             <li><a href="#help" data-key="help">Help</a></li>
       
           </ul>
-                <select id="lang-toggle" class="lang-button">
-  <option value="en" class="text">🇬🇧 English</option>
-  <option value="jp" class="text">日語</option>
-</select>
+               <div class="lang-wrapper">
+  <!-- Button -->
+  <button id="langBtn" class="lang-btn">
+    <span id="langIcon">
+      <!-- UK Flag -->
+      <svg width="20" height="20" viewBox="0 0 60 30">
+        <rect width="60" height="30" fill="#012169"/>
+      </svg>
+    </span>
+    <span id="langText">EN</span>
+  </button>
+
+  <!-- Dropdown -->
+  <div id="langMenu" class="lang-menu hidden">
+    <div class="lang-item" data-lang="en">
+      <svg width="20" height="20" viewBox="0 0 60 30">
+        <rect width="60" height="30" fill="#012169"/>
+      </svg>
+      English
+    </div>
+
+    <div class="lang-item" data-lang="jp">
+      <svg width="20" height="20" viewBox="0 0 60 30">
+        <rect width="60" height="30" fill="white"/>
+        <circle cx="30" cy="15" r="8" fill="red"/>
+      </svg>
+      日本語
+    </div>
+  </div>
+</div>
         </nav>
       </div>
     </header>

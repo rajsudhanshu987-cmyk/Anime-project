@@ -175,19 +175,72 @@ function changeLanguage(lang) {
     }
   });
 
+  // ===== SVG LANGUAGE SWITCHER =====
+// const langBtn = document.getElementById("langBtn");
+// const langMenu = document.getElementById("langMenu");
+// const langText = document.getElementById("langText");
+// const langIcon = document.getElementById("langIcon");
+
+// langBtn.addEventListener("click", () => {
+//   langMenu.classList.toggle("hidden");
+// });
+
+// document.addEventListener("click", (e) => {
+//   if (!langBtn.contains(e.target) && !langMenu.contains(e.target)) {
+//     langMenu.classList.add("hidden");
+//   }
+// });
+
+// document.querySelectorAll(".lang-item").forEach(item => {
+//   item.addEventListener("click", () => {
+//     const lang = item.dataset.lang;
+
+//     if (lang === "en") {
+//       langText.innerText = "EN";
+//       langIcon.innerHTML = `<svg width="20" height="20" viewBox="0 0 60 30">
+//         <rect width="60" height="30" fill="#012169"/>
+//       </svg>`;
+//     } else {
+//       langText.innerText = "JP";
+//       langIcon.innerHTML = `<svg width="20" height="20" viewBox="0 0 60 30">
+//         <rect width="60" height="30" fill="white"/>
+//         <circle cx="30" cy="15" r="8" fill="red"/>
+//       </svg>`;
+//     }
+
+//     localStorage.setItem("lang", lang);
+//     changeLanguage(lang);
+
+//     langMenu.classList.add("hidden");
+//   });
+// });
+// window.onload = () => {
+//   const savedLang = localStorage.getItem("lang") || "en";
+
+//   changeLanguage(savedLang);
+
+//   // Sync UI
+//   if (savedLang === "jp") {
+//     langText.innerText = "JP";
+//     langIcon.innerHTML = `<svg width="20" height="20" viewBox="0 0 60 30">
+//       <rect width="60" height="30" fill="white"/>
+//       <circle cx="30" cy="15" r="8" fill="red"/>
+//     </svg>`;
+//   }
+// };
   // Optional: font switch
-  document.body.style.fontFamily =
-    lang === "jp" ? "'Noto Sans JP', sans-serif" : "'Poppins', sans-serif";
-}
+//   document.body.style.fontFamily =
+//     lang === "jp" ? "'Noto Sans JP', sans-serif" : "'Poppins', sans-serif";
+// }
 
-langToggle.addEventListener("change", () => {
-  const lang = langToggle.value;
-  localStorage.setItem("lang", lang);
-  changeLanguage(lang);
-});
+// langToggle.addEventListener("change", () => {
+//   const lang = langToggle.value;
+//   localStorage.setItem("lang", lang);
+//   changeLanguage(lang);
+// });
 
-window.onload = () => {
-  const savedLang = localStorage.getItem("lang") || "en";
-  langToggle.value = savedLang;
-  changeLanguage(savedLang);
-};
+// window.onload = () => {
+//   const savedLang = localStorage.getItem("lang") || "en";
+//   langToggle.value = savedLang;
+//   changeLanguage(savedLang);
+// };

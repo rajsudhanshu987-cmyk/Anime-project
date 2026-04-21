@@ -37,7 +37,20 @@ const translations = {
     deathnote_title: "Death Note",
     deathnote_tag: "Battle of Minds",
     deathnote_info: "37 Episodes | Genre: Thriller",
-    deathnote_watch: "WATCH TRAILER"
+    deathnote_watch: "WATCH TRAILER",
+
+    
+    jjk_title: "Jujutsu Kaisen",
+    jjk_tag: "Curse vs Sorcerer Battle",
+    jjk_info: "47 Episodes | Genre: Action",
+    jjk_watch: "WATCH TRAILER",
+
+    // Demon Slayer
+    ds_title: "Demon Slayer",
+    ds_tag: "Demon Hunting Journey",
+    ds_info: "55 Episodes | Genre: Action",
+    ds_watch: "WATCH TRAILER"
+
   },
 
   jp: {
@@ -76,7 +89,18 @@ const translations = {
     deathnote_title: "デスノート",
     deathnote_tag: "頭脳戦",
     deathnote_info: "37話 | ジャンル: スリラー",
-    deathnote_watch: "予告編を見る"
+    deathnote_watch: "予告編を見る",
+
+    jjk_title: "呪術廻戦",
+    jjk_tag: "呪いと術師の戦い",
+    jjk_info: "47話 | ジャンル: アクション",
+    jjk_watch: "予告編を見る",
+
+    ds_title: "鬼滅の刃",
+    ds_tag: "鬼狩りの旅",
+    ds_info: "55話 | ジャンル: アクション",
+     ds_watch: "予告編を見る",
+    
   }
 };
 

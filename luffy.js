@@ -49,8 +49,38 @@ const translations = {
     ds_title: "Demon Slayer",
     ds_tag: "Demon Hunting Journey",
     ds_info: "55 Episodes | Genre: Action",
-    ds_watch: "WATCH TRAILER"
+    ds_watch: "WATCH TRAILER",
 
+    // Tokyo Ghoul
+    tg_title: "Tokyo Ghoul",
+    tg_tag: "Human vs Monster Conflict",
+    tg_info: "48 Episodes | Genre: Dark Fantasy",
+    tg_watch: "WATCH TRAILER",
+
+    // Chainsaw
+    csm_title: "Chainsaw Man",
+    csm_tag: "Devil Hunter Chaos",
+    csm_info: "12 Episodes | Genre: Action",
+    csm_watch: "WATCH TRAILER",
+
+    // Sad anime
+    pancreas_title: "I Want to Eat Your Pancreas",
+    pancreas_tag: "A Fragile Love Story",
+    pancreas_info: "Movie | Genre: Drama",
+     pancreas_watch:  "WATCH TRAILER",
+
+    silent_title: "A Silent Voice",
+    silent_tag: "Redemption and Forgiveness",
+    silent_info: "Movie | Genre: Drama",
+    silent_watch: "WATCH TRAILER",
+
+    april_title: "Your Lie in April",
+    april_tag: "Music and Heartbreak",
+    april_info: "22 Episodes | Genre: Romance",
+
+    yourname_title: "Your Name",
+    yourname_tag: "Love Beyond Time",
+    yourname_info: "Movie | Genre: Romance",
   },
 
   jp: {
@@ -100,6 +130,36 @@ const translations = {
     ds_tag: "鬼狩りの旅",
     ds_info: "55話 | ジャンル: アクション",
      ds_watch: "予告編を見る",
+
+     tg_title: "東京喰種",
+    tg_tag: "人間と怪物の戦い",
+    tg_info: "48話 | ジャンル: ダークファンタジー",
+    tg_watch: "予告編を見る",
+
+    csm_title: "チェンソーマン",
+    csm_tag: "悪魔ハンターの混乱",
+    csm_info: "12話 | ジャンル: アクション",
+     csm_watch:  "予告編を見る",
+
+    pancreas_title: "君の膵臓をたべたい",
+    pancreas_tag: "切ない恋の物語",
+    pancreas_info: "映画 | ジャンル: ドラマ",
+    pancreas_watch: "予告編を見る",
+
+    silent_title: "聲の形",
+    silent_tag: "贖罪と許し",
+    silent_info: "映画 | ジャンル: ドラマ",
+     silent_watch: "予告編を見る",
+
+    april_title: "四月は君の嘘",
+    april_tag: "音楽と悲しみ",
+    april_info: "22話 | ジャンル: ロマンス",
+
+    yourname_title: "君の名は",
+    yourname_tag: "時を超えた愛",
+    yourname_info: "映画 | ジャンル: ロマンス"
+  
+
     
   }
 };

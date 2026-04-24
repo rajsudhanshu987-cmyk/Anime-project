@@ -476,3 +476,40 @@ border-spacing: 100px;
    border-radius: 3px;
   vertical-align: middle;
 }
+
+
+
+/* .help-box {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.input-group {
+  margin: 10px 0;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 8px;
+  background: #111;
+  color: white;
+}
+
+.send-btn {
+  background: #ff0055;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.send-btn:hover {
+  background: #ff2a6d;
+} */

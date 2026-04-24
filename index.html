@@ -391,28 +391,37 @@
     </section>
     <!-- help section -->
 
-    <section id="help" class="section" role="region" aria-label="help section">
-      <div class="container">
-        <h2 id="help-heading" data-key="help_section">Help & Contact</h2>
+    <div class="help-box">
 
-        <div class="help-box" >
-          <p data-key="contact">Need help or suggestions? Contact me 👇</p> 
-       
-        <div class="contact-item" data-key="email">
-          <i class="fa-solid fa-envelope"></i>
-          Email: hayatosato64@gmail.com
-        </div>
-        <div class="contact-item" data-key="phone">
-          <i class="fa-solid fa-phone"></i>
-          Phone: 987545110
-        </div>
-          <div class="contact-item" data-key="insta">
-            <i class="fa-brands fa-instagram"></i>
-            Instagram: suneo_64
-          </div>
-        
-      </div>
-    </section>
+  <p>Need help or suggestions? Drop a message 👇</p>
+
+  <form id="contactForm">
+
+    <div class="input-group">
+      <input type="text" placeholder="Your Name" required>
+    </div>
+
+    <div class="input-group">
+      <input type="email" placeholder="Your Email" required>
+    </div>
+
+    <div class="input-group">
+      <textarea placeholder="Your Message..." rows="4" required></textarea>
+    </div>
+
+    <button type="submit" class="send-btn">
+      Send Message 🚀
+    </button>
+
+  </form>
+
+  <div class="contact-info">
+    <p><i class="fa-solid fa-envelope"></i> Shanks64@gmail.com</p>
+    <p><i class="fa-solid fa-phone"></i> 987545110</p>
+    <p><i class="fa-brands fa-instagram"></i> luffy_64</p>
+  </div>
+
+</div>
 
     <script src="./luffy.js"></script>
   </body>

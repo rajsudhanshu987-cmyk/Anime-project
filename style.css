@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -262,7 +262,6 @@ section {
   transition: 0.3s;
 }
 
-/* SHOW ON HOVER */
 .destination-card:hover .extra-info {
   opacity: 1;
 }

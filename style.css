@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -262,7 +262,6 @@ section {
   transition: 0.3s;
 }
 
-/* SHOW ON HOVER */
 .destination-card:hover .extra-info {
   opacity: 1;
 }
@@ -282,9 +281,13 @@ section {
   font-size: 0.8rem;
 }
 
-/* IMAGE OVERLAY EFFECT */
 .destination-card::after {
   content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   pointer-events: none;
   background: rgba(0,0,0,0.4);
   opacity: 0;

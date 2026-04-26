@@ -219,7 +219,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Load saved language
+  
   const savedLang = localStorage.getItem("lang") || "en";
   changeLanguage(savedLang);
 

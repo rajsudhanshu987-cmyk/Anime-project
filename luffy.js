@@ -45,19 +45,19 @@ const translations = {
     jjk_info: "47 Episodes | Genre: Action",
     jjk_watch: "WATCH TRAILER",
 
-    // Demon Slayer
+    
     ds_title: "Demon Slayer",
     ds_tag: "Demon Hunting Journey",
     ds_info: "55 Episodes | Genre: Action",
     ds_watch: "WATCH TRAILER",
 
-    // Tokyo Ghoul
+    
     tg_title: "Tokyo Ghoul",
     tg_tag: "Human vs Monster Conflict",
     tg_info: "48 Episodes | Genre: Dark Fantasy",
     tg_watch: "WATCH TRAILER",
 
-    // Chainsaw
+    
     csm_title: "Chainsaw Man",
     csm_tag: "Devil Hunter Chaos",
     csm_info: "12 Episodes | Genre: Action",
